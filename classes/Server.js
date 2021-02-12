@@ -28,7 +28,6 @@ import Database_Payesh_db from "./Database_Payesh_db.js";
 
 // Controllers
 import ExamController from "../controllers/Payesh_db/ExamController";
-import UserController from "../controllers/Payesh_db/UserController";
 import CourseController from "../controllers/Payesh_db/CourseController";
 import StudentController from "../controllers/Payesh_db/StudentController";
 
@@ -109,7 +108,6 @@ class Server {
 
     // Start Init Controllers
 		ExamController.init(router);
-		UserController.init(router);
 		CourseController.init(router);
 		StudentController.init(router);
 		 // End Init Controllers
